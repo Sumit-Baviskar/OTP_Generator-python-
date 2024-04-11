@@ -100,7 +100,7 @@ So your task is to develop an OTP (One-Time Password) verification system in Pyt
 
 
 
-**OUTPUT**--
+# OUTPUT--
 
 ![Screen Shot 2024-04-12 at 12 23 49 AM](https://github.com/Sumit-Baviskar/OTP_Generator-python-/assets/153518735/ac38250a-2a89-47eb-9d41-5c9bee0d61a4)
 
