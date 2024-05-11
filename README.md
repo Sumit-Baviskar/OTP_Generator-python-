@@ -98,18 +98,20 @@ So your task is to develop an OTP (One-Time Password) verification system in Pyt
 
 
 **# main function is called here**
-      task()
+      
+      
+        task()
 
 
 
-# OUTPUT--
+# :green_book: # OUTPUT-- # :green_book:
 
 ![Screen Shot 2024-04-12 at 12 23 49 AM](https://github.com/Sumit-Baviskar/OTP_Generator-python-/assets/153518735/ac38250a-2a89-47eb-9d41-5c9bee0d61a4)
 
 ![Screen Shot 2024-04-12 at 12 24 04 AM](https://github.com/Sumit-Baviskar/OTP_Generator-python-/assets/153518735/a704d607-f7ca-4255-b9b3-6a73d7de0bae)
 
 
-# Project Deliverables:
+# :green_book: # Project Deliverables: # :green_book:
 
 Python script containing the implementation of the OTP verification system
 
@@ -118,7 +120,7 @@ This Python script implements a simple OTP (One-Time Password) verification syst
 
 1)Documentation explaining the functionality of each function, how to run the program, and any dependencies required.
 
-# Functionality of Each Function
+# :green_book: # Functionality of Each Function # :green_book:
 
 a) **user()**: This function prompts the user to enter their first name, last name, and email address. It returns the entered email address.
 
@@ -133,7 +135,7 @@ e) **verify(OTP_1)**: Prompts the user to enter the OTP received in their email.
 f) **task()**: Combines the above functions to simulate the OTP verification process
 
 
-# How to Run the Program:
+# :green_book: # How to Run the Program: # :green_book:
 
 Run the script in a Python environment. Follow the prompts to enter your first name, last name, and email address. An OTP will be generated and simulated to be sent to your email address. Check your email for the OTP and enter it when prompted. The system will verify the entered OTP and provide feedback.
 
@@ -141,7 +143,7 @@ Dependencies: The script requires the random module for generating OTPs and the 
 
 2)Test cases to ensure the system functions correctly under various scenarios, including correct and incorrect OTP entries.
 
-# Test Cases:
+# :green_book: # Test Cases: # :green_book:
 
 Test the system under various scenarios, including:
 
