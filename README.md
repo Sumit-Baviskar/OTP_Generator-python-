@@ -1,14 +1,16 @@
-# OTP_Generator-python
+# :chart_with_upwards_trend:# OTP_Generator-python # :chart_with_upwards_trend:
 
 # Problem Statement:
 
+Problem scenario
 
-Your company is a providing taxi services to customer's to join that company has recently started online user verification process to fasten the verificatio process. As soon as users has to join , customers will be provided with services.
+
+Your company is a providing taxi services to customer's to join that company has recently started online user verification process to fasten the verification process. As soon as users has to join , customers will be provided with services.
 
 So your task is to develop an OTP (One-Time Password) verification system in Python. The system should generate a 6-digit OTP and send it to the user's email address for verification. Upon receiving the OTP, the user should enter it into the system for validation. If the entered OTP matches the generated OTP, access should be granted; otherwise, access should be denied.
 
 
-# Project Requirements:
+# :closed_lock_with_key: # Project Requirements:#:closed_lock_with_key:
 
 
 1) Implement a function to generate a 6-digit OTP randomly.
@@ -24,7 +26,7 @@ So your task is to develop an OTP (One-Time Password) verification system in Pyt
 6) Allow the user to retry OTP entry in case of incorrect input.
 
 
-**CODE--**
+# :key: **CODE--** # :key:
 
       def user():
         first_name=input("Enter the first name : ")
@@ -47,7 +49,7 @@ So your task is to develop an OTP (One-Time Password) verification system in Pyt
 
 
 
-   #Develop a function to simulate sending the OTP to the user's email address.
+**#Develop a function to simulate sending the OTP to the user's email address.**
    
       def simulate_send_otp_email(email_1, OTP_1):
           print("\n\n Entry to company server:")
@@ -95,7 +97,7 @@ So your task is to develop an OTP (One-Time Password) verification system in Pyt
        verify(OTP_1)
 
 
-      **# main function is called here**
+**# main function is called here**
       task()
 
 
@@ -113,21 +115,22 @@ Python script containing the implementation of the OTP verification system
 
 This Python script implements a simple OTP (One-Time Password) verification system. It includes functions to generate a 6-digit OTP, send it to a user's email address, prompt the user to enter the OTP, and verify if the entered OTP matches the generated one
 
+
 1)Documentation explaining the functionality of each function, how to run the program, and any dependencies required.
 
 # Functionality of Each Function
 
-a) user(): This function prompts the user to enter their first name, last name, and email address. It returns the entered email address.
+a) **user()**: This function prompts the user to enter their first name, last name, and email address. It returns the entered email address.
 
-b) generate_new_OTP(): Generates a random 6-digit OTP using the random module.
+b) **generate_new_OTP()**: Generates a random 6-digit OTP using the random module.
 
-c) simulate_send_otp_email(email_1, OTP_1): Simulates sending the OTP to the user's email address. It prints the email address and the generated OTP.
+c) **simulate_send_otp_email(email_1, OTP_1)**: Simulates sending the OTP to the user's email address. It prints the email address and the generated OTP.
 
-d) email(email_1, OTP_1): Prints a message body containing the OTP and instructions for verification. It includes the received email address and OTP.
+d) **email(email_1, OTP_1)**: Prints a message body containing the OTP and instructions for verification. It includes the received email address and OTP.
 
-e) verify(OTP_1): Prompts the user to enter the OTP received in their email. It allows the user to retry OTP entry in case of incorrect input.
+e) **verify(OTP_1)**: Prompts the user to enter the OTP received in their email. It allows the user to retry OTP entry in case of incorrect input.
 
-f) task(): Combines the above functions to simulate the OTP verification process
+f) **task()**: Combines the above functions to simulate the OTP verification process
 
 
 # How to Run the Program:
