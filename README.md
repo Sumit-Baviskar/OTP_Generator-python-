@@ -1,8 +1,8 @@
-# :chart_with_upwards_trend:# OTP_Generator-python # :chart_with_upwards_trend:
+# :chart_with_upwards_trend: OTP_Generator-python :chart_with_upwards_trend:
 
-# Problem Statement:
+# :green_book: Problem Statement:
 
-Problem scenario
+# :key: Problem scenario
 
 
 Your company is a providing taxi services to customer's to join that company has recently started online user verification process to fasten the verification process. As soon as users has to join , customers will be provided with services.
@@ -10,7 +10,7 @@ Your company is a providing taxi services to customer's to join that company has
 So your task is to develop an OTP (One-Time Password) verification system in Python. The system should generate a 6-digit OTP and send it to the user's email address for verification. Upon receiving the OTP, the user should enter it into the system for validation. If the entered OTP matches the generated OTP, access should be granted; otherwise, access should be denied.
 
 
-# :closed_lock_with_key: # Project Requirements:#:closed_lock_with_key:
+# :closed_lock_with_key: Project Requirements: :closed_lock_with_key:
 
 
 1) Implement a function to generate a 6-digit OTP randomly.
@@ -26,7 +26,7 @@ So your task is to develop an OTP (One-Time Password) verification system in Pyt
 6) Allow the user to retry OTP entry in case of incorrect input.
 
 
-# :key: **CODE--** # :key:
+# :key:CODE
 
       def user():
         first_name=input("Enter the first name : ")
@@ -104,23 +104,23 @@ So your task is to develop an OTP (One-Time Password) verification system in Pyt
 
 
 
-# :green_book: # OUTPUT-- # :green_book:
+# :key: OUTPUT-- 
 
 ![Screen Shot 2024-04-12 at 12 23 49 AM](https://github.com/Sumit-Baviskar/OTP_Generator-python-/assets/153518735/ac38250a-2a89-47eb-9d41-5c9bee0d61a4)
 
 ![Screen Shot 2024-04-12 at 12 24 04 AM](https://github.com/Sumit-Baviskar/OTP_Generator-python-/assets/153518735/a704d607-f7ca-4255-b9b3-6a73d7de0bae)
 
 
-# :green_book: # Project Deliverables: # :green_book:
+# :green_book: Project Deliverables: :green_book:
 
 Python script containing the implementation of the OTP verification system
 
 This Python script implements a simple OTP (One-Time Password) verification system. It includes functions to generate a 6-digit OTP, send it to a user's email address, prompt the user to enter the OTP, and verify if the entered OTP matches the generated one
 
 
-1)Documentation explaining the functionality of each function, how to run the program, and any dependencies required.
+1) Documentation explaining the functionality of each function, how to run the program, and any dependencies required.
 
-# :green_book: # Functionality of Each Function # :green_book:
+# :green_book:  Functionality of Each Function :green_book:
 
 a) **user()**: This function prompts the user to enter their first name, last name, and email address. It returns the entered email address.
 
@@ -135,7 +135,7 @@ e) **verify(OTP_1)**: Prompts the user to enter the OTP received in their email.
 f) **task()**: Combines the above functions to simulate the OTP verification process
 
 
-# :green_book: # How to Run the Program: # :green_book:
+# :green_book:  How to Run the Program: 
 
 Run the script in a Python environment. Follow the prompts to enter your first name, last name, and email address. An OTP will be generated and simulated to be sent to your email address. Check your email for the OTP and enter it when prompted. The system will verify the entered OTP and provide feedback.
 
@@ -143,7 +143,7 @@ Dependencies: The script requires the random module for generating OTPs and the 
 
 2)Test cases to ensure the system functions correctly under various scenarios, including correct and incorrect OTP entries.
 
-# :green_book: # Test Cases: # :green_book:
+# :key: Test Cases:  
 
 Test the system under various scenarios, including:
 
