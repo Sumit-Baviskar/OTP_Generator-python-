@@ -1,4 +1,4 @@
-# :chart_with_upwards_trend: OTP_Generator-python :chart_with_upwards_trend:
+# :chart_with_upwards_trend: OTP Generator python :chart_with_upwards_trend:
 
 # :green_book: Problem Statement:
 
